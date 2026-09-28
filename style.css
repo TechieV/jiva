@@ -1,0 +1,24 @@
+body {
+  background-color: #FAF8F5;
+  color: #1A2416;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.display-font {
+  font-family: 'Outfit', sans-serif;
+}
+
+.glass-nav {
+  background: rgba(250, 248, 245, 0.95);
+  backdrop-filter: blur(12px);
+}
+
+.logo > img {  
+  height: 50px;
+  width: auto;
+  object-fit: contain;
+}
+
+input:focus, select:focus, textarea:focus, button:focus {
+  outline: none;
+}
